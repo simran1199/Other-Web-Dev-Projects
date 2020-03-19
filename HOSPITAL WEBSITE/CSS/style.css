@@ -1,0 +1,44 @@
+
+#outer
+{height:1000px;
+width:1000px;
+border:1px solid;
+margin:0px auto;
+}
+#r1
+{height:100px;
+width:1000px;
+border:1px solid;
+}
+#r1l
+{height:100px;
+width:700px;
+border:1px solid;float:left;
+}
+#r1r
+{height:100px;
+width:290px;
+border:1px solid;float:right;
+}
+#r1lleft
+{height:100px;
+width:200px;
+border:1px solid red;float:left;
+}
+#r1lright
+{height:85px;
+width:480px;margin-top:14px;
+border:1px solid yellow;float:left;
+}
+#r1rleft
+{height:70px;
+width:90px;
+border:1px solid;float:left;
+margin-top:20px;
+}
+#r1rright
+{height:40px;
+width:190px;
+border:1px solid;float:right;
+margin-top:30px;
+}

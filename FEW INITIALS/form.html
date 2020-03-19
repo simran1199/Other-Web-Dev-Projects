@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form exercise</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+	<label>first name:</label>
+	<input type="text" required="true"/>
+	<label>last name:</label>
+	<input type="text" required />
+	<br/>
+	<label>male</label><input type="radio" value="c1" name="choice"/>
+	<label>female</label><input type="radio" value="c2" name="choice"/>
+	<label>others</label><input type="radio" value="c3" name="choice"/>
+	<br/>
+	<label>email:</label><input type="email" required placeholder="your email"/>
+	<label>password:</label>
+	<input type="password" pattern=".{5,10}" required title="5 to 10 characters"/>
+	<br/>
+	<label>birthday:</label>
+	<select name="month">
+		<option>jan</option>
+		<option>feb</option>
+		<option>march</option>
+	</select>
+	<select name="day">
+		<option>mon</option>
+		<option>tues</option>
+		<option>wed</option>
+	</select>
+	<select name="year">
+		<option>1999</option>
+		<option>1998</option>
+		<option>2000</option>
+	</select>
+	<br/>
+i agree to the terms and conditions <input type="checkbox"/>
+<br/>
+<input type="submit"/>
+</form>
+</body>
+</html>
